@@ -17,8 +17,11 @@
     height: 60%;
 }
 
-.lyrics {
+html {
     font-family: sans-serif;
+}
+
+.lyrics {
     line-height: 1.5em;
     font-size: 16pt;
     flex: 1 1 0;
@@ -26,4 +29,9 @@
 
 .lyric-line:hover {
     background-color: bisque;
+}
+
+.lyrics-only-link {
+    font-size: 16pt;
+    text-align: center;
 }
